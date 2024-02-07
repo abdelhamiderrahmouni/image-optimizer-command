@@ -59,11 +59,13 @@ sudo dnf install libavif-tools
 ```
 
 ## Installation
+I recommend you use this package in local environment only, even if it is possible to use it in production environment, 
+it is not recommended to use it in production.
 
 You can install the package via composer:
 
 ```bash
-composer require abdelhamiderrahmouni/image-optimizer-command
+composer require abdelhamiderrahmouni/image-optimizer-command --dev
 ```
 
 You can publish the config file with:
