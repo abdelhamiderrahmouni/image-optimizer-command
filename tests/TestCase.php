@@ -2,9 +2,9 @@
 
 namespace AbdelhamidErrahmouni\ImageOptimizerCommand\Tests;
 
+use AbdelhamidErrahmouni\ImageOptimizerCommand\ImageOptimizerCommandServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AbdelhamidErrahmouni\ImageOptimizerCommand\ImageOptimizerCommandServiceProvider;
 
 class TestCase extends Orchestra
 {
