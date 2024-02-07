@@ -7,6 +7,57 @@
 
 A package that offers a command for image optimization using spatie/image-optimizer under the hood.
 
+## Pre-requisites
+
+### Optimization tools
+
+The package will use these optimizers if they are present on your system:
+
+- [JpegOptim](https://github.com/tjko/jpegoptim)
+- [Optipng](http://optipng.sourceforge.net/)
+- [Pngquant 2](https://pngquant.org/)
+- [SVGO 1](https://github.com/svg/svgo)
+- [Gifsicle](http://www.lcdf.org/gifsicle/)
+- [cwebp](https://developers.google.com/speed/webp/docs/precompiled)
+- [avifenc](https://github.com/AOMediaCodec/libavif/blob/main/doc/avifenc.1.md)
+
+Here's how to install all the optimizers on Ubuntu/Debian:
+
+```bash
+sudo apt-get install jpegoptim
+sudo apt-get install optipng
+sudo apt-get install pngquant
+sudo npm install -g svgo
+sudo apt-get install gifsicle
+sudo apt-get install webp
+sudo apt-get install libavif-bin # minimum 0.9.3
+```
+
+And here's how to install the binaries on MacOS (using [Homebrew](https://brew.sh/)):
+
+```bash
+brew install jpegoptim
+brew install optipng
+brew install pngquant
+npm install -g svgo
+brew install gifsicle
+brew install webp
+brew install libavif
+```
+
+And here's how to install the binaries on Fedora/RHEL/CentOS:
+
+```bash
+sudo dnf install epel-release
+sudo dnf install jpegoptim
+sudo dnf install optipng
+sudo dnf install pngquant
+sudo npm install -g svgo
+sudo dnf install gifsicle
+sudo dnf install libwebp-tools
+sudo dnf install libavif-tools
+```
+
 ## Installation
 
 You can install the package via composer:
