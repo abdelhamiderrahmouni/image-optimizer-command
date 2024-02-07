@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "abdelhamiderrahmouni/image-optimizer-command",
+    "description": "A package that offers a command for image optimization using spatie/image-optimizer under the hood.",
     "keywords": [
-        ":vendor_name",
+        "Abdelhamid Errahmouni",
         "laravel",
-        ":package_slug"
+        "image-optimizer-command"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/abdelhamiderrahmouni/image-optimizer-command",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdelhamid Errahmouni",
+            "email": "abdelhamid.errahmouni@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AbdelhamidErrahmouni\\ImageOptimizerCommand\\": "src/",
+            "AbdelhamidErrahmouni\\ImageOptimizerCommand\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "AbdelhamidErrahmouni\\ImageOptimizerCommand\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-image-optimizer-command --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AbdelhamidErrahmouni\\ImageOptimizerCommand\\ImageOptimizerCommandServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ImageOptimizerCommand": "AbdelhamidErrahmouni\\ImageOptimizerCommand\\Facades\\ImageOptimizerCommand"
             }
         }
     },
