@@ -24,7 +24,7 @@ class OptimizerCommand extends Command
 
         $finder = new Finder();
 
-        $this->info('🔍 Loading images from '.$this->assetsDir.'directory.');
+        $this->info('🔍 Loading images from '.$this->assetsDir.' directory.');
 
         // Find all files within the assets directory
         $finder->files()->in($this->assetsDir);
