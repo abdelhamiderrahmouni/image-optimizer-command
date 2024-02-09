@@ -87,15 +87,8 @@ return [
 
 ## Usage
 
-```php
-$imageOptimizerCommand = new AbdelhamidErrahmouni\ImageOptimizerCommand();
-echo $imageOptimizerCommand->echoPhrase('Hello, AbdelhamidErrahmouni!');
-```
-
-## Testing
-
 ```bash
-composer test
+    php artisan images:compress [path/to/assets]
 ```
 
 ## Changelog
