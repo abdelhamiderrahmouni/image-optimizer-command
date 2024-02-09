@@ -78,6 +78,10 @@ This is the contents of the published config file:
 
 ```php
 return [
+    /*
+     * The path to the assets folder. Default is public/assets.
+     */
+    'assets_path' => 'public/assets',
 ];
 ```
 
